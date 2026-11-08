@@ -22,8 +22,10 @@
   flex-wrap: wrap;
   gap: 24px;
 }
-.portfolio-wrapper {
+.portfolio {
   padding: 120px 0;
+}
+.portfolio-wrapper {
 }
 .pcard-1 {
   padding: 32px 16px;
