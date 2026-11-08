@@ -22,7 +22,7 @@
 }
 .nav-list {
   display: flex;
-  gap: 11px;
+  gap: 40px;
 }
 .nav a {
   padding: 24px 0;
@@ -45,7 +45,7 @@
 
 .contacts-list {
   display: flex;
-  gap: 12px;
+  gap: 40px;
   justify-content: left;
 }
 .contacts a:hover {
@@ -57,4 +57,7 @@
 .header .container {
   display: flex;
   align-items: center;
+}
+.header {
+  border-bottom: 1px solid #e7e9fc;
 }

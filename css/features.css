@@ -9,6 +9,7 @@
 }
 
 .features-cards {
+  flex-basis: calc((100% - 72) / 4);
   display: flex;
   gap: 24px;
 }

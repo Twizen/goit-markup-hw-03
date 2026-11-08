@@ -20,7 +20,7 @@
 .portfolio-cards {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
+  gap: 48px 24px;
 }
 .portfolio {
   padding: 120px 0;
