@@ -17,6 +17,17 @@
   font-size: 16px;
   line-height: 1.5;
   color: #2e2f42;
+  margin-right: auto;
+  margin-left: 76px;
+}
+.nav-list {
+  display: flex;
+  gap: 11px;
+}
+.nav a {
+  padding: 24px 0;
+  display: block;
+  margin-left: 12px;
 }
 .nav a:hover {
   color: #404bbf;
@@ -27,9 +38,23 @@
 .contacts {
   font-style: normal;
 }
+.contacts a {
+  display: block;
+  padding: 24px 0;
+}
+
+.contacts-list {
+  display: flex;
+  gap: 12px;
+  justify-content: left;
+}
 .contacts a:hover {
   color: #404bbf;
 }
 .contacts a:focus {
   color: #404bbf;
+}
+.header .container {
+  display: flex;
+  align-items: center;
 }

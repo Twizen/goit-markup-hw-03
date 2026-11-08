@@ -9,3 +9,13 @@
 .span-studio {
   color: #f4f4fd;
 }
+.container-wrapper {
+  padding: 100px 0;
+  margin: auto;
+}
+
+.container-wrapper p {
+  display: block;
+  margin-top: 16px;
+  max-width: 264px;
+}

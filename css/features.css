@@ -1,7 +1,19 @@
 .features h3 {
+  display: block;
+  margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   color: #2e2f42;
   letter-spacing: 0.02em;
+}
+.sr-only {
+  position: absolute;
+  width: 1px;
+  overflow: hidden;
+}
+.features-cards {
+  display: flex;
+  padding: 120px 0;
+  gap: 24px;
 }
