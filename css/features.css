@@ -9,9 +9,11 @@
 }
 
 .features-cards {
-  flex-basis: calc((100% - 72px) / 4);
   display: flex;
   gap: 24px;
+}
+.features-cards li {
+  flex-basis: calc((100% - 72px) / 4);
 }
 .features {
   padding: 120px 0;
